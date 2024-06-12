@@ -38,8 +38,10 @@ import matplotlib.pyplot as plt
 from functions import Q_Learning
 
 #env=gym.make('CartPole-v1',render_mode='human')
-env=gym.make('CartPole-v1')
+env=gym.make('CartPole-v1',render_mode='human')
+#reset the environment returns the initial state
 (state,_)=env.reset()
+#states are: cart position, cart velocity, pole angle, pole angular velocity
 #env.render()
 #env.close()
 

@@ -1,21 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
+'''
 - Q-Learning Off-Policy Control 
 - Reinforcement Learning Tutorial
 
-Author: Aleksandar Haber
-Date: February 2023
 
-This Python file contains a class definition that implements 
-the Q-Learning Off-Policy algorithm and tests the algorithm 
-by using the Cart Pole OpenAI Gym environment
+- This Python file contains driver code for the Q-Learning algorithm
+- This Python file imports the class Q_Learning that implements the algorithm 
+- The definition of the class Q_Learning is in the file "functions.py"
 
-The tutorial webpage explaining the Q-learning algorithm and
-the developed codes is given below:
-    
-https://aleksandarhaber.com/q-learning-in-python-with-tests-in-cart-pole-openai-gym-environment-reinforcement-learning-tutorial/
-
-"""
+Name: Muhammad Bahriddinov
+'''
 import numpy as np
 
 class Q_Learning:
